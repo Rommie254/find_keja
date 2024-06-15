@@ -10,43 +10,46 @@
 <body>
 <!----------------------------------------------------------------------------------------------------> 
 <!--Login section-->
-<div class="container">
-    <div class="card" id="loginSignupCard">
-        <!-- Inside the Login Modal -->
-        <div id="loginModal" class="modal">
-            <div class="modal-content">
-                <!-- Image logo -->
-                <img src="https://github.com/Rommie254/images/blob/main/findkeja_logo.png?raw=true" alt="logo" class="logo">
-                
-                <div id="loginSection">
-                    <h2>Login</h2>
-                    <form id="loginForm">
-                        <label for="loginUsername">Username:</label>
-                        <input type="text" id="loginUsername" name="loginUsername">
-                        <label for="loginPassword">Password:</label>
-                        <input type="password" id="loginPassword" name="loginPassword">
-                        <button type="submit" class="button">Login</button>
-                        <p id="loginMessage" class="message"></p>
-                    </form>
-                    <a href="#" id="showSignupButton" class="link">Signup</a>
-                </div>
-                <div id="signupSection" style="display: none;">
-                    <h2>Signup</h2>
-                    <p id="signupMessage" class="message"></p>
-                    <form id="signupForm">
-                        <label for="signupUsername">Username:</label>
-                        <input type="text" id="signupUsername" name="signupUsername">
-                        <label for="signupPassword">Password:</label>
-                        <input type="password" id="signupPassword" name="signupPassword">
-                        <button type="submit" class="button">Signup</button>
+    <div class="container">
+        <div class="card" id="loginSignupCard">
+            <!-- Inside the Login Modal -->
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <!-- Image logo -->
+                    <img src="https://github.com/Rommie254/images/blob/main/findkeja_logo.png?raw=true" alt="logo" class="logo">
+                    
+                    <div id="loginSection">
+                        <h2>Login</h2>
+                        <form id="loginForm">
+                            <label for="loginUsername">Username:</label>
+                            <input type="text" id="loginUsername" name="loginUsername">
+                            <label for="loginPassword">Password:</label>
+                            <input type="password" id="loginPassword" name="loginPassword">
+                            <button type="submit" class="button">Login</button>
+                            <p id="loginMessage" class="message"></p>
+                        </form>
+                        <a href="#" id="showSignupButton" class="link">Don't have an account? Signup</a>
+                    </div>
+                    <div id="signupSection" style="display: none;">
+                        <h2>Signup</h2>
                         <p id="signupMessage" class="message"></p>
-                    </form>
-                    <a href="#" id="backToLoginButton" class="link">Back to Login</a>
+                        <form id="signupForm">
+                            <label for="signupUsername">Username:</label>
+                            <input type="text" id="signupUsername" name="signupUsername">
+                            <label for="signupPassword">Password:</label>
+                            <input type="password" id="signupPassword" name="signupPassword">
+                            <button type="submit" class="button">Signup</button>
+                            <p id="signupMessage" class="message"></p>
+                        </form>
+                        <a href="#" id="backToLoginButton" class="link">Back to Login</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
 
 </body>
 </html>
